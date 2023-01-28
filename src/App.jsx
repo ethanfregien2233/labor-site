@@ -9,7 +9,6 @@ import Harvesting from './components/Harvesting';
 import Placeholder from './components/Placeholder';
 function App() {
   return (
-    <>
     <div className='text-inter'>
     <Header/>
     <Hero/> 
@@ -19,7 +18,6 @@ function App() {
     <Contact/>
     <Footer />
     </div>
-    </>
   )
 }
 

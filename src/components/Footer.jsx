@@ -6,8 +6,12 @@ import {
   FaPinterest,
   FaYoutube,
 } from 'react-icons/fa';
-
 const Footer = () => {
+  function handleFooterClick(string) {
+    const section = document.getElementById(string);
+    section.scrollIntoView({ behavior: 'smooth' });
+    
+  }
   return (
     <div className='w-full text-white bg-brown] py-14'>
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>

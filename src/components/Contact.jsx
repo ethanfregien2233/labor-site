@@ -1,10 +1,11 @@
-import React from 'react'
-
+import React, { useState, useEffect, useRef  } from 'react';
 function Contact() {
+
     return (
         <div
           name="contact"
-          className="w-full h-screen bg-[18332f] p-4 text-white"
+          className="w-full h-screen bg-[18332f] p-4 text-white Contact"
+          id='Contact'
         >
           <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
             <div className="pb-8">
